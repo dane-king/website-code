@@ -19,7 +19,7 @@ body {
 }
 
 .wrapper {
-  margin: 0 2rem;
+  margin: 2rem;
   display: grid;
   grid-gap: 20px;
   grid-template-areas:
@@ -73,14 +73,6 @@ body {
   padding: 0 1em;
 }
 
-.content {
-  visibility: hidden;
-}
-
-.content a:active,
-.content:target {
-  visibility: visible;
-}
 
 @media (min-width: 500px) {
   .wrapper {
